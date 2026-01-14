@@ -1,0 +1,112 @@
+{
+  "A01": {
+    "code": "A01:2025",
+    "name": "Broken Access Control",
+    "severity": "High",
+    "related_cwe": ["CWE-284", "CWE-639"],
+    "mitigation": {
+      "immediate_action": "Restrict sensitive endpoints immediately.",
+      "permanent_fix": "Implement role-based access control.",
+      "prevention_method": "Use access control middleware."
+    }
+  },
+  "A02": {
+    "code": "A02:2025",
+    "name": "Security Misconfiguration",
+    "severity": "High",
+    "related_cwe": ["CWE-16", "CWE-611"],
+    "mitigation": {
+      "immediate_action": "Disable default configs.",
+      "permanent_fix": "Harden configurations.",
+      "prevention_method": "Use secure templates."
+    }
+  },
+  "A03": {
+    "code": "A03:2025",
+    "name": "Software Supply Chain Failures",
+    "severity": "High",
+    "related_cwe": ["CWE-829"],
+    "mitigation": {
+      "immediate_action": "Audit dependencies.",
+      "permanent_fix": "Use signed packages.",
+      "prevention_method": "Monitor supply chain."
+    }
+  },
+  "A04": {
+    "code": "A04:2025",
+    "name": "Cryptographic Failures",
+    "severity": "High",
+    "related_cwe": ["CWE-326"],
+    "mitigation": {
+      "immediate_action": "Disable weak crypto.",
+      "permanent_fix": "Use strong algorithms.",
+      "prevention_method": "Follow crypto standards."
+    }
+  },
+  "A05": {
+    "code": "A05:2025",
+    "name": "Injection",
+    "severity": "Critical",
+    "related_cwe": ["CWE-89", "CWE-79"],
+    "mitigation": {
+      "immediate_action": "Disable verbose errors.",
+      "permanent_fix": "Use parameterized queries.",
+      "prevention_method": "Use ORM or stored procedures."
+    }
+  },
+  "A06": {
+    "code": "A06:2025",
+    "name": "Insecure Design",
+    "severity": "Medium",
+    "related_cwe": ["CWE-656"],
+    "mitigation": {
+      "immediate_action": "Review architecture.",
+      "permanent_fix": "Redesign securely.",
+      "prevention_method": "Use threat modeling."
+    }
+  },
+  "A07": {
+    "code": "A07:2025",
+    "name": "Authentication Failures",
+    "severity": "High",
+    "related_cwe": ["CWE-287"],
+    "mitigation": {
+      "immediate_action": "Reset weak passwords.",
+      "permanent_fix": "Implement MFA.",
+      "prevention_method": "Strong auth policies."
+    }
+  },
+  "A08": {
+    "code": "A08:2025",
+    "name": "Software or Data Integrity Failures",
+    "severity": "High",
+    "related_cwe": ["CWE-353"],
+    "mitigation": {
+      "immediate_action": "Verify integrity.",
+      "permanent_fix": "Use checksums.",
+      "prevention_method": "Digital signatures."
+    }
+  },
+  "A09": {
+    "code": "A09:2025",
+    "name": "Security Logging and Alerting Failures",
+    "severity": "Medium",
+    "related_cwe": ["CWE-778"],
+    "mitigation": {
+      "immediate_action": "Enable logging.",
+      "permanent_fix": "Centralized logs.",
+      "prevention_method": "Real-time alerts."
+    }
+  },
+  "A10": {
+    "code": "A10:2025",
+    "name": "Mishandling of Exceptional Conditions",
+    "severity": "Medium",
+    "related_cwe": ["CWE-703"],
+    "mitigation": {
+      "immediate_action": "Handle errors safely.",
+      "permanent_fix": "Use proper exception handling.",
+      "prevention_method": "Fail securely."
+    }
+  }
+}
